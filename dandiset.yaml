@@ -4,9 +4,6 @@
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
 about:
-- identifier: http://purl.obolibrary.org/obo/UBERON_0000955
-  name: brain
-  schemaKey: Anatomy
 - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
   name: Rattus norvegicus
   schemaKey: Anatomy
@@ -22,8 +19,8 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 3626468320
-  numberOfFiles: 3060
+  numberOfBytes: 4109896748
+  numberOfFiles: 3359
   numberOfSubjects: 26
   schemaKey: AssetsSummary
   species:
