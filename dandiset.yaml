@@ -14,21 +14,24 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: optogenetic approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 1445457727
-  numberOfFiles: 1312
-  numberOfSubjects: 10
+  numberOfBytes: 2655009887
+  numberOfFiles: 2256
+  numberOfSubjects: 22
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
     name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
-  variableMeasured: []
+  variableMeasured:
+  - OptogeneticSeries
 citation: Pagan, Marino; Tang, Vincent D.; Aoi, Mikio C.; Pillow, Jonathan W.; Mante,
   Valerio; Sussillo, David; Brody, Carlos D. (2026) Individual variability of neural
   computations underlying flexible decisions (Version draft) [Data set]. DANDI Archive.
