@@ -19,8 +19,8 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 9978918632
-  numberOfFiles: 7721
+  numberOfBytes: 10400063751
+  numberOfFiles: 8031
   numberOfSubjects: 26
   schemaKey: AssetsSummary
   species:
