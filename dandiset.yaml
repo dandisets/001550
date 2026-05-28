@@ -7,6 +7,9 @@ about:
 - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
   name: Rattus norvegicus
   schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001870
+  name: frontal cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -17,8 +20,8 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 20920875804
-  numberOfFiles: 16104
+  numberOfBytes: 20936732011
+  numberOfFiles: 16115
   numberOfSubjects: 26
   schemaKey: AssetsSummary
   species:
@@ -102,7 +105,14 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- email: brody@princeton.edu
+- affiliation:
+  - identifier: https://ror.org/006w34k90
+    name: Howard Hughes Medical Institute
+    schemaKey: Affiliation
+  - identifier: https://ror.org/00hx57361
+    name: Princeton University
+    schemaKey: Affiliation
+  email: brody@princeton.edu
   identifier: 0000-0002-4201-561X
   includeInCitation: true
   name: Brody, Carlos D.
@@ -110,11 +120,21 @@ contributor:
   - dcite:Author
   schemaKey: Person
 - awardNumber: R21MH124383
+  identifier: https://ror.org/01cwqze88
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- name: Howard Hughes Medical Institute (HHMI)
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  name: Weigl, Szonja
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
+- identifier: https://ror.org/006w34k90
+  name: Howard Hughes Medical Institute (HHMI)
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -151,6 +171,8 @@ description: In this study rats were trained to perform a task requiring context
 ethicsApproval: []
 id: DANDI:001550/draft
 identifier: DANDI:001550
+keywords:
+- context-dependent decision-making
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -170,6 +192,12 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/Brody-Lab/flexible_decision_making_training
+- name: Conversion code for Pagan lab data to NWB
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/pagan-lab-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
