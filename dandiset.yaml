@@ -4,9 +4,6 @@
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
 about:
-- identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
-  name: Rattus norvegicus
-  schemaKey: Anatomy
 - identifier: http://purl.obolibrary.org/obo/UBERON_0001870
   name: frontal cortex
   schemaKey: Anatomy
@@ -198,6 +195,12 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/pagan-lab-to-nwb
+- name: Example notebooks for Pagan Lab dataset
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: https://github.com/dandi/example-notebooks/tree/master/001550/PaganLab
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
