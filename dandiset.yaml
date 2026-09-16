@@ -28,8 +28,8 @@ assetsSummary:
   variableMeasured: []
 citation: Pagan, Marino; Tang, Vincent D.; Aoi, Mikio C.; Pillow, Jonathan W.; Mante,
   Valerio; Sussillo, David; Brody, Carlos D. (2026) Individual variability of neural
-  computations underlying flexible decisions (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001550/draft
+  computations underlying flexible decisions (Version 0.260916.0811) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.001550/0.260916.0811
 contributor:
 - affiliation:
   - identifier: https://ror.org/00hx57361
@@ -136,6 +136,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-08-15T10:58:21.468827+00:00'
+datePublished: '2026-09-16T08:11:58.604633+00:00'
 description: In this study rats were trained to perform a task requiring context-dependent
   selection and accumulation of sensory evidence. The task was performed in a behavioural
   box consisting of three straight walls and one curved wall with three nose ports.
@@ -165,16 +166,29 @@ description: In this study rats were trained to perform a task requiring context
   the pulses. The context was kept constant in blocks of trials, and block switches
   occurred after a minimum of 30 trials per block, and when a local estimate of performance
   reached a threshold of 80% correct.
+doi: 10.48324/dandi.001550/0.260916.0811
 ethicsApproval: []
-id: DANDI:001550/draft
+id: DANDI:001550/0.260916.0811
 identifier: DANDI:001550
 keywords:
 - context-dependent decision-making
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001550/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001550/0.260916.0811/assets.yaml
 name: Individual variability of neural computations underlying flexible decisions
+publishedBy:
+  endDate: '2026-09-16T08:11:58.604633+00:00'
+  id: urn:uuid:64365d6f-822f-4656-9f93-4ec41cb7e1f7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-16T08:11:58.604633+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:42020cbb-713e-450b-810e-28482dd45739
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.1038/s41586-024-08433-6
   name: Individual variability of neural computations underlying flexible decisions
@@ -204,6 +218,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
-url: https://dandiarchive.org/dandiset/001550/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001550/0.260916.0811
+version: 0.260916.0811
 wasGeneratedBy: []
