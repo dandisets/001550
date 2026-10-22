@@ -136,7 +136,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-08-15T10:58:21.468827+00:00'
-description: In this study rats were trained to perform a task requiring context-dependent
+description: "In this study rats were trained to perform a task requiring context-dependent
   selection and accumulation of sensory evidence. The task was performed in a behavioural
   box consisting of three straight walls and one curved wall with three nose ports.
   Each nose port was equipped with an LED to deliver visual stimuli, and with an infrared
@@ -164,7 +164,10 @@ description: In this study rats were trained to perform a task requiring context
   of high-frequency pulses, and orienting right otherwise, ignoring the location of
   the pulses. The context was kept constant in blocks of trials, and block switches
   occurred after a minimum of 30 trials per block, and when a local estimate of performance
-  reached a threshold of 80% correct.
+  reached a threshold of 80% correct. A trials table column is left out of a session
+  when it would hold no values: HistorySection_hit_history when every trial is a violation
+  (HistorySection_result_history gives the outcome of every trial), and a pulse-time
+  column when no trial has pulses of that type."
 ethicsApproval: []
 id: DANDI:001550/draft
 identifier: DANDI:001550
